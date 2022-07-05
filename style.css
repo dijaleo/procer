@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    background-color: #820000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+a:link, a:visited, .logo{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:active{
+    color: #ababab;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    margin: 0 10px;
+}
+
+.left{
+    width: 66%;
+}
