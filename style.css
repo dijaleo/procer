@@ -28,9 +28,63 @@ a:hover{
 
 .main{
     display: flex;
-    margin: 0 10px;
+    height: 820px;
+}
+
+.right{
+    background-color: #eeeeee;
+    width: 20%;
+    padding: 0 50px;
+    margin-right: 0;
+    margin-left: 310px;
 }
 
 .left{
-    width: 66%;
+    width: 57%;
+    margin: 0 10px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.authors{
+    color: #999999;
+    font-style: italic;
+}
+
+.content{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.right ul li a:link{
+    color: #000000;
+}
+
+.related-article:link, .related-article:visited{
+    color: #117bdb;
+}
+
+.related-article:hover{
+    text-decoration: underline;
+}
+
+.related-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    background-color: #117bdb;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
 }
